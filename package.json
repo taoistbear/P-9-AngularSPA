@@ -1,14 +1,14 @@
 {
   "name": "techdegree-angular-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Building a single page application using Angular.js for Treehouse.com Techdegree",
   "main": "src/index.js",
   "scripts": {
     "start": "nodemon ./src/index.js localhost 5000",
     "db": "node ./src/api/data/seed.js"
   },
   "author": "Treehouse Island, Inc.",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "angular": "^1.6.0",
     "angular-route": "^1.6.0",
@@ -19,5 +19,18 @@
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taoistbear/P-9-AngularSPA.git"
+  },
+  "bugs": {
+    "url": "https://github.com/taoistbear/P-9-AngularSPA/issues"
+  },
+  "homepage": "https://github.com/taoistbear/P-9-AngularSPA#readme",
+  "keywords": [
+    "Treeehouse",
+    "Angluar.js",
+    "SPA"
+  ]
 }
