@@ -18,6 +18,9 @@
     "nedb": "^1.8.0"
   },
   "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "mocha": "^3.2.0",
     "nodemon": "^1.11.0"
   },
   "repository": {
